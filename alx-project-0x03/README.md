@@ -1,40 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🧪 Next.js Starter Project
 
-## Getting Started
+This is a [Next.js](https://nextjs.org) web application bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app). It includes full support for React, TypeScript, file-based routing, API endpoints, and optimized font delivery.
 
-First, run the development server:
+---
+
+## 📚 Project Overview
+
+This project serves as a boilerplate to help developers quickly start building fast, scalable web apps with modern best practices. It's ideal for learning Next.js fundamentals or for use as a base template for custom apps.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS (optional)
+- **Routing**: File-based via Next.js Pages Router
+- **API**: Built-in API routes under `/pages/api`
+- **Fonts**: Optimized with [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts)
+
+---
+
+## ✨ Features
+
+- 📦 Out-of-the-box project scaffolding with TypeScript
+- 🚀 Fast refresh and automatic static optimization
+- 🌐 API routes for backend logic
+- 🧩 File-based routing and dynamic routes support
+- 🎨 Font optimization using [Geist font](https://vercel.com/font) (can be changed)
+- 🔄 Live reloading and development tooling built-in
+
+---
+
+## 🛠️ Getting Started
+
+To run the development server locally:
 
 ```bash
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
